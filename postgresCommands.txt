@@ -1,0 +1,60 @@
+\copy aka_name FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/cleaned_aka_name.csv/part-00000-7f1bb16d-3678-4055-a841-982c4d8928c9-c000.csv' WITH (FORMAT csv, HEADER, DELIMITER '|')
+
+
+\copy aka_title FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/aka_title_202311192059.csv' WITH (FORMAT csv, HEADER)
+
+\copy cast_info FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/cast_info.csv' csv
+
+
+\copy char_name FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/char_name.csv' csv
+
+
+\copy comp_cast_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/comp_cast_type.csv' csv
+
+
+\copy company_name FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/company_name.csv' csv
+
+
+\copy company_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/company_type.csv' csv
+
+
+\copy complete_cast FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/complete_cast_updated.csv' WITH (FORMAT csv, HEADER)
+
+
+\copy info_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/info_type.csv' csv
+
+
+\copy keyword FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/keyword.csv' csv
+
+
+\copy kind_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/kind_type.csv' csv
+
+
+\copy link_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/link_type.csv' csv
+
+
+\copy movie_companies FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/movie_companies_updated.csv' WITH (FORMAT csv, HEADER, DELIMITER '|')
+
+
+\copy movie_info FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/movie_info.csv' csv
+
+
+\copy movie_info_idx FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/movie_info_idx.csv' csv
+
+
+\copy movie_keyword FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/movie_keyword.csv' csv
+
+
+\copy movie_link FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/movie_link.csv' csv
+
+
+\copy name FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/name.csv' csv
+
+
+\copy person_info FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/person_info.csv' csv
+
+
+\copy role_type FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/role_type.csv' csv
+
+
+\copy title FROM '/Users/debbiesubocz/uw-code/data516/project/output_csv/title.csv' csv

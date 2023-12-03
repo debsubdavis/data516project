@@ -1,0 +1,53 @@
+copy aka_name from 's3://djsdavis-project/aka_name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy aka_title from 's3://djsdavis-project/aka_title.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy cast_info from 's3://djsdavis-project/cast_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy char_name from 's3://djsdavis-project/char_name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+copy comp_cast_type from 's3://djsdavis-project/comp_cast_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy company_name from 's3://djsdavis-project/company_name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+copy company_type from 's3://djsdavis-project/company_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy complete_cast from 's3://djsdavis-project/complete_cast.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy info_type from 's3://djsdavis-project/info_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+copy keyword from 's3://djsdavis-project/keyword.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy kind_type from 's3://djsdavis-project/kind_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy link_type from 's3://djsdavis-project/link_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+copy movie_info from 's3://djsdavis-project/movie_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' MAXERROR as 5 DELIMITER '|';
+
+copy movie_info_idx from 's3://djsdavis-project/movie_info_idx.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+
+copy movie_keyword from 's3://djsdavis-project/movie_keyword.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+copy movie_link from 's3://djsdavis-project/movie_link.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy name from 's3://djsdavis-project/name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy person_info from 's3://djsdavis-project/person_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' MAXERROR as 20 DELIMITER '|';
+
+
+
+copy role_type from 's3://djsdavis-project/role_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+copy title from 's3://djsdavis-project/title.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';
+
+
+
+
+COPY movie_companies FROM 's3://djsdavis-project/movie_companies.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' DELIMITER '|';

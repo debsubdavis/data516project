@@ -1,0 +1,49 @@
+--copy aka_name from 's3://djsdavis-project/aka_name_202311192056.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy aka_title from 's3://djsdavis-project/aka_title_202311192059.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy cast_info from 's3://djsdavis-project/cast_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole'  IGNOREHEADER 1 FORMAT AS CSV;
+
+--delete from aka_name;
+--delete from aka_title;
+--delete from cast_info;
+
+
+--copy comp_cast_type from 's3://djsdavis-project/comp_cast_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy company_name from 's3://djsdavis-project/company_name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy company_type from 's3://djsdavis-project/company_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+-- copy complete_cast from 's3://djsdavis-project/complete_cast_updated.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 DELIMITER '|' FORMAT AS CSV;
+
+--copy info_type from 's3://djsdavis-project/info_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy keyword from 's3://djsdavis-project/keyword.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy kind_type from 's3://djsdavis-project/kind_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy link_type from 's3://djsdavis-project/link_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+
+--COPY movie_companies FROM 's3://djsdavis-project/movie_companies_updated.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 DELIMITER '|' FORMAT AS CSV;
+
+--copy movie_info from 's3://djsdavis-project/movie_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy movie_keyword from 's3://djsdavis-project/movie_keyword.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy movie_link from 's3://djsdavis-project/movie_link.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy name from 's3://djsdavis-project/name.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy person_info from 's3://djsdavis-project/person_info.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy role_type from 's3://djsdavis-project/role_type.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy title from 's3://djsdavis-project/title.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+--copy movie_info_idx from 's3://djsdavis-project/movie_info_idx.csv' REGION 'us-west-2' CREDENTIALS 'aws_iam_role=arn:aws:iam::620176725179:role/myRedshiftRole' IGNOREHEADER 1 FORMAT AS CSV;
+
+
+
+

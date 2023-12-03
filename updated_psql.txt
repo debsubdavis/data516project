@@ -1,0 +1,11 @@
+\copy cast_info FROM /Users/debbiesubocz/uw-code/data516/project/data_csv/imdb/cast_info.csv csv
+
+
+\copy cast_info FROM /Users/debbiesubocz/uw-code/data516/project/data_csv/imdb/cast_info_updated.csv/part-00000-84d93da7-89f9-4859-be5a-b2d7b72b19da-c000.csv csv
+
+
+\copy cast_info FROM /Users/debbiesubocz/uw-code/data516/project/data_csv/imdb/cast_info_updated.csv2/part-00000-c1b76302-8d1e-4a47-99fd-16d25b05dabb-c000.csv csv
+
+\copy cast_info FROM /Users/debbiesubocz/uw-code/data516/project/data_csv/imdb/cast_info_updated.csv3/part-00000-b77e1e23-1aa4-49a0-916a-f83751b4bba3-c000.csv csv
+
+\copy cast_info FROM /Users/debbiesubocz/uw-code/data516/project/data_csv/imdb/cast_info_updated_4.csv/part-00000-65434c4f-0c97-4a0c-a2e9-da7242ef81e6-c000.csv WITH (FORMAT csv, DELIMITER '|')
